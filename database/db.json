@@ -1,0 +1,16 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "Wireless Headphones",
+            "description": "High-quality wireless headphones with noise cancellation and long battery life.",
+            "price": 99.99
+          },
+          {
+            "id": 2,
+            "title": "Smartwatch",
+            "description": "Feature-rich smartwatch with heart rate monitoring, GPS, and water resistance.",
+            "price": 149.99
+          }
+    ]
+}
