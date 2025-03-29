@@ -18,10 +18,10 @@ const ProductsList = () => {
                     !isLoading && !isError && products.length > 0 && products.map((product) => {
                         return <article key={product.id} className='bg-slate-300 p-2 rounded-lg'>
                             <h1 className='font-bold text-xl'>ID: {product.id}</h1>
-                            <h1 className='font-bold text-xl'>Title: {product.title}</h1>
-                            <p>Description: {product.description}</p>
-                            <p className='font-bold'>Price: {product.price}</p>
-                            <button onClick={()=>dispatch(deleteProducts(product.id))}>Delete</button>
+                            <h1 className='text-xl'><span className='font-bold'>Title:</span> {product.title}</h1>
+                            <p><span className='font-bold'>Description:</span> {product.description}</p>
+                            <p className=''><span className='font-bold'>Price:</span> {product.price}</p>
+                            <button onClick={() => dispatch(deleteProducts(product.id))}>Delete</button>
                         </article>
                     })
                 }

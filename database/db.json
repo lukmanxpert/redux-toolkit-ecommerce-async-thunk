@@ -1,16 +1,112 @@
 {
-    "products": [
-        {
-            "id": 1,
-            "title": "Wireless Headphones",
-            "description": "High-quality wireless headphones with noise cancellation and long battery life.",
-            "price": 99.99
-          },
-          {
-            "id": 2,
-            "title": "Smartwatch",
-            "description": "Feature-rich smartwatch with heart rate monitoring, GPS, and water resistance.",
-            "price": 149.99
-          }
-    ]
+  "products": [
+    {
+      "id": "1",
+      "title": "Wireless Headphones",
+      "description": "High-quality wireless headphones with noise cancellation and long battery life.",
+      "price": 99.99
+    },
+    {
+      "id": "2",
+      "title": "Labore et non fuga ",
+      "description": "Vitae repellendus A",
+      "price": "543"
+    },
+    {
+      "id": "3",
+      "title": "Laudantium ratione ",
+      "description": "Veniam nihil dolore",
+      "price": "280"
+    },
+    {
+      "id": "4",
+      "title": "Molestiae est rerum",
+      "description": "Non natus autem volu",
+      "price": "980"
+    },
+    {
+      "id": "5",
+      "title": "Animi consequuntur ",
+      "description": "Voluptas laboris quo",
+      "price": "484"
+    },
+    {
+      "id": "6",
+      "title": "Consequuntur aliqua",
+      "description": "Consequatur vitae qu",
+      "price": "539"
+    },
+    {
+      "id": "7",
+      "title": "Laboris aliquid volu",
+      "description": "Laboriosam minim re",
+      "price": "821"
+    },
+    {
+      "id": "8",
+      "title": "Est numquam soluta v",
+      "description": "Illo non eveniet de",
+      "price": "397"
+    },
+    {
+      "id": "9",
+      "title": "Iste quidem sunt id ",
+      "description": "Possimus dolor hic ",
+      "price": "585"
+    },
+    {
+      "id": "10",
+      "title": "Repellendus Odit iu",
+      "description": "Unde a reiciendis re",
+      "price": "41"
+    },
+    {
+      "id": "11",
+      "title": "Molestiae numquam si",
+      "description": "Autem placeat labor",
+      "price": "472"
+    },
+    {
+      "id": "12",
+      "title": "Ut optio duis nobis",
+      "description": "Adipisci commodo des",
+      "price": "352"
+    },
+    {
+      "id": "14",
+      "title": "Aliqua Dolore fugia",
+      "description": "Et est cupidatat re",
+      "price": "126"
+    },
+    {
+      "id": "15",
+      "title": "Totam fugit est nul",
+      "description": "Saepe esse eu molli",
+      "price": "198"
+    },
+    {
+      "id": "16",
+      "title": "Fugiat nobis in lab",
+      "description": "Totam molestiae ut n",
+      "price": "244"
+    },
+    {
+      "id": "17",
+      "title": "fdfsd",
+      "description": "fsdfs",
+      "price": "50"
+    },
+    {
+      "id": "18",
+      "title": "Labore amet magna m",
+      "description": "Sint similique dolo",
+      "price": "673"
+    },
+    {
+      "id": "19",
+      "title": "Et maiores maxime ma",
+      "description": "Vel omnis consequatu",
+      "price": "113"
+    }
+  ]
 }
