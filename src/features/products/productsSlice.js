@@ -6,11 +6,19 @@ const initialState = {
   isLoading: false,
   isError: null,
 };
+const baseUrl = "http://localhost:3003"
 export const fetchProducts = createAsyncThunk(
   "products/fetchProducts",
   async () => {
-    const response = await axios.get("http://localhost:3003/products");
+    const response = await axios.get(`${baseUrl}/products`);
     return response.data
+  }
+);
+export const deleteProducts = createAsyncThunk(
+  "products/deleteProducts",
+  async (id) => {
+    await axios.delete(`${baseUrl}/products/${id}`);
+    return id
   }
 );
 const productsSlice = createSlice({
@@ -30,6 +38,9 @@ const productsSlice = createSlice({
       state.products = [];
       state.isError = action.error.message;
     });
+    builder.addCase(deleteProducts.fulfilled, (state, action)=>{
+        state.products = state.products.filter((product)=> product.id !== action.payload)
+    })
   },
 });
 

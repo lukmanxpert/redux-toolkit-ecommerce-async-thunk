@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchProducts } from './productsSlice';
+import { deleteProducts, fetchProducts } from './productsSlice';
 
 const ProductsList = () => {
     const dispatch = useDispatch()
@@ -21,6 +21,7 @@ const ProductsList = () => {
                             <h1 className='font-bold text-xl'>Title: {product.title}</h1>
                             <p>Description: {product.description}</p>
                             <p className='font-bold'>Price: {product.price}</p>
+                            <button onClick={()=>dispatch(deleteProducts(product.id))}>Delete</button>
                         </article>
                     })
                 }
